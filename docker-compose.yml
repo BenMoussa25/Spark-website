@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  angular-app:
+    build: .
+    ports:
+      - "80:4200"
+    volumes:
+      # Mount the project directory to enable live reloading during development
+      - .:/app
+      # Prevent overwriting node_modules by mounting an anonymous volume
+      - /app/node_modules
+    command: ng serve --host 0.0.0.0

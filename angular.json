@@ -32,7 +32,12 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/lib/bootstrap/css/bootstrap.min.css",
+              "src/assets/lib/font-awesome/css/font-awesome.min.css",
+              "src/assets/lib/animate/animate.min.css",
+              "src/assets/lib/venobox/venobox.css",
+              "src/assets/lib/owlcarousel/assets/owl.carousel.min.css"
             ],
             "scripts": []
           },
@@ -95,7 +100,12 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "assets/lib/bootstrap/css/bootstrap.min.css",
+              "assets/lib/font-awesome/css/font-awesome.min.css",
+              "assets/lib/animate/animate.min.css",
+              "sassets/lib/venobox/venobox.css",
+              "assets/lib/owlcarousel/assets/owl.carousel.min.css"
             ],
             "scripts": [     
             "node_modules/jquery/dist/jquery.min.js"]
